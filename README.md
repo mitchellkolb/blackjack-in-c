@@ -4,21 +4,24 @@
 <h1 align="center">Classic Games</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/classic-games?color=DE4830">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/mitchellkolb/classic-games?color=5C5C5C">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/classic-games?color=DE4830">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/mitchellkolb/classic-games?color=5C5C5C">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/classic-games?color=DE4830">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/mitchellkolb/classic-games?color=5C5C5C">
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/classic-games?color=DE4830" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/mitchellkolb/classic-games?color=5C5C5C" />
 </p>
 
 <p align="center">
 <img
-    src="https://img.shields.io/badge/C++-DE4830?style=for-the-badge&logo=c&logoColor=white"
+    src="https://img.shields.io/badge/Programming Language-%2300599b?style=for-the-badge&logo=C&logoColor=white"
     alt="Website Badge" />
 <img
-    src="https://img.shields.io/badge/Xcode-000000?style=for-the-badge&logo=apple&logoColor=white"
+    src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows 10&logoColor=white"
+    alt="Website Badge" />
+<img
+    src="https://img.shields.io/badge/Terminal-5C5C5C?style=for-the-badge&logo=terminal&logoColor=white"
     alt="Website Badge" />
 </p>
 
@@ -42,7 +45,14 @@ A collection of classic board games I recreated in C that play in the terminal.
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-- [References](#references)
+    - [Project Details](#references)
+    - [BlackJack](#blackjack)
+    - [Connect Four](#connect-four)
+    - [Craps](#craps)
+    - [Yahtzee](#yahtzee)
+- [Results](#results)
+- [Future Work](#future-work)
+
 - [Acknowledgments](#acknowledgments)
 
 ---
@@ -94,43 +104,39 @@ This project utilizes
 
 
 ## Project Details
-
-### Introduction
-In this project, we apply 
+In this project, I apply 
 
 
-### Literature Review
+## BlackJack
+I developed a Blackjack game in C that plays in the terminal. This included implementing game logic for dealing cards, calculating hand values, and determining game outcomes. The program utilized multiple files: main.c for the game loop and user interactions, functions.c for handling game logic and calculations, and functions.h for function declarations. Key accomplishments included designing a user-friendly interface, managing card shuffling and dealing, and implementing game rules to handle player decisions and dealer actions.
+
+
+## Connect Four
 In this we drew inspiration from various sources, including video tutorials online for 
 
 
-### Technical Plan
-The project employs a 
+## Craps 
+I developed a Craps game in C that plays in the terminal. This included implementing the game logic for rolling dice, evaluating outcomes based on the rules of Craps, and managing game flow. The program was setup into different files: main.c for the game loop and user interactions, equations.c for handling game logic and calculations, and equations.h for function declarations. Key accomplishments included creating a user-friendly interface, managing random dice rolls adn betting system, and implementing the win/loss conditions of the game. 
 
 
-### Implementation Details
-
-#### Files and Structure
-- `game.py`: Contains the racing game environment and controls the car's movement.
-> [!NOTE]
-> These files were 
+## Yahtzee
+This game involved developing a Yahtzee game using C. The code was setup into different files: main.c for the main game loop and user interaction, Equations.c for handling the game's calculations, and Equations.h for function declarations. Key accomplishments included designing an efficient scoring algorithm and ensuring smooth gameplay through user-friendly prompts and error handling.
 
 
-### Implementation
-In this project
 
-#### Results and Observations
+
+## Results
 During development,
 <p float="left">
   <img src="resources/image1.png" alt="First Try" width="300" />
   <img src="resources/image2.png" alt="Final Try" width="307" />
 </p>
 
-#### Future Work
+## Future Work
 Future improvements could include
 
 
 
-## References
 
 
 

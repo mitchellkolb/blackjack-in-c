@@ -56,8 +56,10 @@ This project is a collection of three classic text-based games—Blackjack, Crap
 ---
 
 # What I Learned in this Project
-- Programming fundamentals of C
+- Programming fundamentals of C.
 - How to use arrays, pointers, structs, functions, and safe user input to create full program experiences.
+- Creating mind maps for visualizing the user flow to help create programs holistically.
+- Modular programming in C, utilizing multiple files and header files for organization.
 
 
 
@@ -99,6 +101,10 @@ g++ -o my_program main.cpp file.cpp
 
 # Project Overview
 This project is a collection of classic text-based games developed in C: Blackjack, Craps, and Yahtzee. Each game was designed to run in the terminal, with a focus on implementing the core game mechanics and providing a user-friendly experience through clear prompts and instructions. The project is organized into separate codebases for each game, utilizing multiple C files to handle the game logic, user interactions, and calculations.
+
+
+
+
 
 ## BlackJack
 I developed a Blackjack game in C that plays in the terminal. This included implementing game logic for dealing cards, calculating hand values, and determining game outcomes. The program is organized into three main files:
@@ -185,12 +191,6 @@ Future improvements could include:
 - Expanding the game logic to include more variations or custom rules.
 
 
-![mind map](/Yahtzee/yahtzee-mind-map.png)
-
-<p float="left">
-  <img src="Yahtzee/yahtzee-mind-map.pdf" alt="First Try" width="300" />
-  <img src="Craps/craps-mind-map.pdf" alt="Final Try" width="307" />
-</p>
 
 --- 
 # Acknowledgments

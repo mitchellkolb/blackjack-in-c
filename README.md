@@ -25,7 +25,8 @@
     alt="Website Badge" />
 </p>
 
-A collection of classic board games I recreated in C that play in the terminal. 
+This project is a collection of three classic text-based games—Blackjack, Craps, and Yahtzee—developed in C. Each game is designed to run in the terminal, showcasing core game mechanics and a user-friendly interface. The project demonstrates modular programming practices, with each game organized into multiple C files to handle game logic, user interactions, and calculations.
+
 
 ![project image](resources/image1.png)
 
@@ -45,11 +46,13 @@ A collection of classic board games I recreated in C that play in the terminal.
 - [Team / Contributors / Teachers](#team--contributors--teachers)
 - [How to Set Up](#how-to-set-up)
 - [Project Overview](#project-overview)
-    - [Project Details](#references)
     - [BlackJack](#blackjack)
+        - [Gameplay and Controls](#gameplay-and-controls)
     - [Craps](#craps)
+        - [Gameplay and Controls](#gameplay-and-controls-1)
     - [Yahtzee](#yahtzee)
-    - [Results](#results)
+        - [Gameplay and Controls](#gameplay-and-controls-2)
+    - [Lessons Learned and Topics Covered](#lessons-learned-and-topics-covered)
     - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
@@ -58,7 +61,7 @@ A collection of classic board games I recreated in C that play in the terminal.
 # What I Learned in this Project
 - Programming fundamentals of C
 - How to use arrays, pointers, structs, functions, and safe user input to create full program experiences.
- 
+
 
 
 
@@ -98,43 +101,99 @@ g++ -o my_program main.cpp file.cpp
 
 
 # Project Overview
-This project utilizes 
-
-
-
-## Project Details
-In this project, I apply 
-
+This project is a collection of classic text-based games developed in C: Blackjack, Craps, and Yahtzee. Each game was designed to run in the terminal, with a focus on implementing the core game mechanics and providing a user-friendly experience through clear prompts and instructions. The project is organized into separate codebases for each game, utilizing multiple C files to handle the game logic, user interactions, and calculations.
 
 ## BlackJack
-I developed a Blackjack game in C that plays in the terminal. This included implementing game logic for dealing cards, calculating hand values, and determining game outcomes. The program utilized multiple files: main.c for the game loop and user interactions, functions.c for handling game logic and calculations, and functions.h for function declarations. Key accomplishments included designing a user-friendly interface, managing card shuffling and dealing, and implementing game rules to handle player decisions and dealer actions.
+I developed a Blackjack game in C that plays in the terminal. This included implementing game logic for dealing cards, calculating hand values, and determining game outcomes. The program is organized into three main files:
+
+- **`main.c`**: Handles the game loop and user interactions, such as taking bets, dealing cards, and determining winners.
+- **`functions.c`**: Manages the core game logic, including shuffling the deck, dealing cards, and calculating hand values.
+- **`functions.h`**: Declares the functions used throughout the game, ensuring modular and organized code.
+
+Key accomplishments included:
+- Designing a user-friendly interface with clear prompts and feedback.
+- Implementing game rules to handle player decisions and dealer actions.
+- Managing card shuffling, dealing, and the logic for determining the winner.
+
+#### Gameplay and Controls
+The Blackjack game operates via text-based controls:
+- Players are prompted to enter their bets and make decisions such as "Hit" or "Stand".
+- The goal is to get as close to 21 as possible without exceeding it.
+- The dealer automatically follows a set of rules to decide when to "Hit" or "Stand".
+
+
 
 
 
 ## Craps 
-I developed a Craps game in C that plays in the terminal. This included implementing the game logic for rolling dice, evaluating outcomes based on the rules of Craps, and managing game flow. The program was setup into different files: main.c for the game loop and user interactions, equations.c for handling game logic and calculations, and equations.h for function declarations. Key accomplishments included creating a user-friendly interface, managing random dice rolls adn betting system, and implementing the win/loss conditions of the game. 
+I developed a Craps game in C that plays in the terminal. This included implementing the game logic for rolling dice, evaluating outcomes based on the rules of Craps, and managing game flow. The program is organized into three main files:
+
+- **`main.c`**: Handles the game loop and user interactions, such as rolling the dice and checking for win/loss conditions.
+- **`equations.c`**: Manages the core calculations for determining the outcomes of dice rolls and other game-related calculations.
+- **`equations.h`**: Declares the functions used throughout the game.
+
+Key accomplishments included:
+- Creating a user-friendly interface with prompts and feedback for each roll.
+- Managing the betting system and random dice rolls.
+- Implementing the win/loss conditions according to traditional Craps rules.
+
+#### Gameplay and Controls
+The Craps game operates via text-based controls:
+- Players roll two dice and follow the standard rules of Craps.
+- The game tracks the point system and automatically checks for win or loss conditions.
+
+Below is a mind map that I created to visualize the user options when in the game.
+
+![mind map](resources/craps-mind-map.jpeg)
+
+
 
 
 ## Yahtzee
-This game involved developing a Yahtzee game using C. The code was setup into different files: main.c for the main game loop and user interaction, Equations.c for handling the game's calculations, and Equations.h for function declarations. Key accomplishments included designing an efficient scoring algorithm and ensuring smooth gameplay through user-friendly prompts and error handling.
+This game involved developing a Yahtzee game using C. The program is organized into three main files:
+
+- **`main.c`**: Handles the main game loop and user interaction, such as rolling dice and selecting which dice to keep.
+- **`Equations.c`**: Manages the calculations for determining scores and evaluating dice combinations.
+- **`Equations.h`**: Declares the functions used throughout the game.
+
+Key accomplishments included:
+- Designing an efficient scoring algorithm to handle all possible Yahtzee combinations.
+- Providing a user-friendly experience with clear prompts for rolling dice and selecting combinations.
+- Ensuring smooth gameplay through robust error handling and input validation.
+
+#### Gameplay and Controls
+The Yahtzee game operates via text-based controls:
+- Players roll five dice up to three times per turn and select which dice to keep.
+- The game automatically calculates scores based on the selected combinations and keeps track of the scorecard.
+
+Below is a mind map that I created to visualize the user options when in the game.
+
+![mind map](resources/yahtzee-mind-map.png)
 
 
 
 
-## Results
-During development,
-<p float="left">
-  <img src="resources/image1.png" alt="First Try" width="300" />
-  <img src="resources/image2.png" alt="Final Try" width="307" />
-</p>
+
+
+## Lessons Learned and Topics Covered
+During the development of these games, I gained a deeper understanding of:
+- Modular programming in C, utilizing multiple files and header files for organization.
+- Implementing complex game logic and algorithms to handle various game scenarios.
+- Improving user interaction in text-based games by designing clear and intuitive interfaces.
 
 ## Future Work
-Future improvements could include
+Future improvements could include:
+- Enhancing the user interface with more advanced graphics or a GUI.
+- Adding multiplayer functionality to allow multiple users to play together.
+- Expanding the game logic to include more variations or custom rules.
 
 
+![mind map](/Yahtzee/yahtzee-mind-map.png)
 
-
-
+<p float="left">
+  <img src="Yahtzee/yahtzee-mind-map.pdf" alt="First Try" width="300" />
+  <img src="Craps/craps-mind-map.pdf" alt="Final Try" width="307" />
+</p>
 
 --- 
 # Acknowledgments

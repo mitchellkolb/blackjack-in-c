@@ -141,7 +141,7 @@ The Craps game operates via text-based controls:
 
 Below is a mind map that I created to visualize the user options when in the game.
 
-![mind map](resources/craps-mind-map.jpeg)
+![mind map](resources/craps-mind-map.png)
 
 
 

@@ -141,7 +141,7 @@ The Craps game operates via text-based controls:
 
 Below is a mind map that I created to visualize the user options when in the game.
 
-![mind map](resources/craps-mind-map.png)
+![craps mind map](resources/craps-mind-map.png)
 
 
 
@@ -165,7 +165,7 @@ The Yahtzee game operates via text-based controls:
 
 Below is a mind map that I created to visualize the user options when in the game.
 
-![mind map](resources/yahtzee-mind-map.png)
+![yahtzee mind map](resources/yahtzee-mind-map.png)
 
 
 

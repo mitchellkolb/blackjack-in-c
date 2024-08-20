@@ -21,7 +21,7 @@
     src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=Windows 10&logoColor=white"
     alt="Website Badge" />
 <img
-    src="https://img.shields.io/badge/Terminal-5C5C5C?style=for-the-badge&logo=terminal&logoColor=white"
+    src="https://img.shields.io/badge/ ZSH Terminal-5C5C5C?style=for-the-badge&logo=terminal&logoColor=white"
     alt="Website Badge" />
 </p>
 
@@ -47,19 +47,18 @@ A collection of classic board games I recreated in C that play in the terminal.
 - [Project Overview](#project-overview)
     - [Project Details](#references)
     - [BlackJack](#blackjack)
-    - [Connect Four](#connect-four)
     - [Craps](#craps)
     - [Yahtzee](#yahtzee)
-- [Results](#results)
-- [Future Work](#future-work)
-
+    - [Results](#results)
+    - [Future Work](#future-work)
 - [Acknowledgments](#acknowledgments)
 
 ---
 
 # What I Learned in this Project
-- How to
-- Programming in 
+- Programming fundamentals of C
+- How to use arrays, pointers, structs, functions, and safe user input to create full program experiences.
+ 
 
 
 
@@ -86,7 +85,7 @@ A collection of classic board games I recreated in C that play in the terminal.
 This project was implemented on my macbook using:
 - Xcode at the time. Any terminal with gcc installed will work
 - Clone this repository 
-- Open terminal at the codebase `~.../classic-games/game-codebase/`
+- Open terminal at the codebase `~.../classic-games/####-codebase/`
 - Run the `a.out` that is included or compile your own executable with the `main.cpp` and all other `file.cpp` files that are in the game folder
 ```zsh
 g++ -o my_program main.cpp file.cpp
@@ -110,9 +109,6 @@ In this project, I apply
 ## BlackJack
 I developed a Blackjack game in C that plays in the terminal. This included implementing game logic for dealing cards, calculating hand values, and determining game outcomes. The program utilized multiple files: main.c for the game loop and user interactions, functions.c for handling game logic and calculations, and functions.h for function declarations. Key accomplishments included designing a user-friendly interface, managing card shuffling and dealing, and implementing game rules to handle player decisions and dealer actions.
 
-
-## Connect Four
-In this we drew inspiration from various sources, including video tutorials online for 
 
 
 ## Craps 

@@ -246,7 +246,7 @@ void single_round(int scoreboard_p1[],int scoreboard_p2[])
 
 void print_scoreboard(int scoreboard_p1[],int scoreboard_p2[])
 {
-    printf("hello");
+    //printf("hello");
     printf("\nP1 value of spot 3 is %d", scoreboard_p1[2]);
     scoreboard_p1[2] = 4;
     printf("\nP1 value of spot 3 is %d", scoreboard_p1[2]);

@@ -51,7 +51,6 @@ void display_menu(void)
 	printf("2. Set Bank Balance.\n");
 	printf("3. Play Game.\n");
 	printf("4. Exit.\n");
-	return 0;
 }
 
 int get_option(void)
@@ -178,7 +177,7 @@ void start_game_1_plyr1(void)
 	player_bank_1 = default_bank;
 	player_bank_2 = default_bank;
 	printf("\n***Player 1 Your Turn Starts Now***\n");
-	player_bank_1 = wdywtb(total);
+	player_bank_1 = wdywtb();
 	whole_player_turn();
 
 }
@@ -232,7 +231,6 @@ void next_ifs_1_plyr1()
 		printf("\n     $%d\n", player_bank_1);
 		endturn();
 		do_you_endgame();
-		return 0;
 
 	}
 	else if (die_value_total < 21)
@@ -268,7 +266,7 @@ void next_ifs_2()
 
 	if (choice_if_2 == 1)
 	{
-		player_bank_1 = wdywtb(player_bank_1);
+		player_bank_1 = wdywtb();
 		roll_again();
 	}
 	else
@@ -304,7 +302,6 @@ void compare()
 		player_bank_1 = won_2x(total_bet);
 		printf("\n     $%d\n", player_bank_1);
 		do_you_endgame();
-		return 0;
 
 	}
 	else if (die_value_total > 21)
@@ -427,7 +424,7 @@ void next_ifs_2_2()
 
 	if (choice_if_2 == 1)
 	{
-		player_bank_2 = wdywtb_2(player_bank_2);
+		player_bank_2 = wdywtb_2();
 		roll_again_2();
 	}
 	else

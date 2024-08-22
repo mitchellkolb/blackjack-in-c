@@ -28,16 +28,17 @@
 This project is a collection of three classic text-based games—Blackjack, Craps, and Yahtzee—developed in C. Each game is designed to run in the terminal, showcasing core game mechanics and a user-friendly interface. The project demonstrates modular programming practices, with each game organized into multiple C files to handle game logic, user interactions, and calculations.
 
 
-![project image](resources/image1.png)
+![project image](resources/classic-games-gif.gif)
 
 <details>
 <summary style="color:#5087dd">Watch the Full Video Demo Here</summary>
 
-[![Full Video Demo Here](https://img.youtube.com/vi/VidKEY/0.jpg)](https://www.youtube.com/watch?v=VidKEY)
+[![Full Video Demo Here](https://img.youtube.com/vi/U7dJRZu7paA/0.jpg)](https://www.youtube.com/watch?v=U7dJRZu7paA)
 
 </details>
 
 ---
+
 
 
 # Table of Contents
